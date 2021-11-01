@@ -12,5 +12,21 @@ void main()
     cin>>b;
     switch(op)
     {
-        case 
+        case '+':
+            cout<<a+b;
+            break;
+        case '-':
+            cout<<a-b;
+            break;
+        case '*':
+            cout<<a*b;
+            break;
+        case '/':
+            cout<<a/b;
+            break;
+        default:
+            cout<<"Error! Invalid  input!";
+            break;
+    }
+    getch();
 }
